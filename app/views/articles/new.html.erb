@@ -1,0 +1,9 @@
+<P>add new article</P>
+
+<%= form_for :new do |f| %>
+	<%= f.label :title%><br>
+	<%= f.text_field :title %><br>
+	<%= f.label :Add_description%><br>
+	<%= f.text_field :description %><br>
+	<%= f.submit%>
+<%end%>

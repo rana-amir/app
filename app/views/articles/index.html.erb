@@ -1,0 +1,15 @@
+<h1>here posted all articles</h1>
+
+<table>
+
+	<td>
+		<tr>title</tr>
+		<tr>decription</tr><br>
+	</td>
+	<% articles.each do |f| %>
+	<td>
+		<tr><%= @f.title%></tr>
+		<tr><%= @f.description%></tr><br>
+	</td>
+	<% end%>
+</table>
